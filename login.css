@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #7f51c4;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.heading{
+    margin-left: 100px;
+    font-weight: bold; 
+    font-size: large;
+}
+
+
+.btn {
+    background-color: #7f51c4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2fbad3;
+}
+.hd{
+    padding: 30px 100px 20px 100px ;
+    font-weight: bolder; 
+    font-size: large;
+    background-color: aliceblue;
+}
+.bd{
+    padding: 60px;
+    border-radius: 10px;
+    background-color: #ced6de;
+    border-style: none;
+
+}
+.bd input{
+   margin: 10px;
+   padding: 10px;
+   font-size:medium; 
+   border-radius: 7px;
+   border-style: none;
+   
+
+
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+#btn:hover {
+    background-color: #0056b3; /* Change to a slightly different color for hover effect */
+    transform: scale(1.05); /* Add a slight scale-up effect on hover */
+}
+#btn {
+    background-color: #007bff; /* Change to your preferred button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 75px;
+
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
